@@ -1,11 +1,11 @@
 <?php
 /**
- * Copyright © Ex6. All rights reserved.
+ * Copyright © Nx6. All rights reserved.
  */
 use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'Ex6_DbCompatibility',
+    'Nx6_DbCompatibility',
     __DIR__
 );

@@ -1,4 +1,4 @@
-# Ex6_DbCompatibility
+# Nx6_DbCompatibility
 
 Magento 2 module that extends the list of database version patterns Magento
 recognizes as supported, via `Magento\Framework\DB\Adapter\SqlVersionProvider`.
@@ -15,18 +15,18 @@ patterns to include:
 
 ## Installation
 
-Copy the `Ex6/DbCompatibility` directory into your Magento installation's
+Copy the `Nx6/DbCompatibility` directory into your Magento installation's
 `app/code/` directory, then run:
 
 ```
-bin/magento module:enable Ex6_DbCompatibility
+bin/magento module:enable Nx6_DbCompatibility
 bin/magento setup:upgrade
 ```
 
 ## Structure
 
 ```
-Ex6/DbCompatibility/
+Nx6/DbCompatibility/
 ├── etc/
 │   ├── di.xml        # Registers supported DB version patterns
 │   └── module.xml    # Module declaration
